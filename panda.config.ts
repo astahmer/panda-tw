@@ -18,4 +18,16 @@ export default defineConfig({
   // The output directory for your css system
   outdir: "styled-system",
   jsxFramework: "react",
+
+  // you can optionally prefix your panda className
+  // prefix: "p",
+
+  // you can rename layers if needed
+  // layers: {
+  //   base: "panda_base",
+  //   recipes: "panda_recipes",
+  //   reset: "panda_reset",
+  //   tokens: "panda_tokens",
+  //   utilities: "panda_utilities",
+  // },
 });
